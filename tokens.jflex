@@ -49,8 +49,8 @@ Symbol newSym(int tokenId, Object value) {
  * PATTERN DEFINITIONS:
  */
 backslash = \\
-openmulti = "\*"
-closemulti = "*\"
+openmulti = \*
+closemulti = *\
 newline = \n
 tab = \t
 quote = \"
