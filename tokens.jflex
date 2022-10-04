@@ -63,7 +63,7 @@ whitespace = [ \n\t\r]
 id = {letter}[{letter}{number}]*
 integerliteral = {number}+
 singlecomment = {backslash}{backslash}.*\n
-multicomment = "/*" [^*] ~"*/"
+multicomment = \\\*~\*\\
 
 
 /**
