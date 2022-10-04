@@ -64,6 +64,8 @@ id = {letter}[{letter}{number}]*
 integerliteral = {number}+
 singlecomment = {backslash}{backslash}.*\n
 multicomment = \\\*~\*\\
+badFloat = \.{number}+|{number}+\.
+
 
 
 /**
