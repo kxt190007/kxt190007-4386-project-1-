@@ -51,8 +51,6 @@ terminal QUESTION;				//44
 terminal COLON;					//45
 terminal ABOUT; 				//46
 terminal VOID; 					//47
-terminal SINGLECOMMENT;			//48
-terminal MULTICOMMENT;			//49
 terminal STRING;				//50
 
 non terminal dummy;

@@ -120,8 +120,6 @@ void                {return newSym(sym.VOID, "void");}
 "?"                 {return newSym(sym.QUESTION, "?");}
 ":"                 {return newSym(sym.COLON, ":");}
 "~"                 {return newSym(sym.ABOUT, "~");}
-{singlecomment}     {return newSym(sym.SINGLECOMMENT, yytext());}
-{multicomment}      {return newSym(sym.MULTICOMMeNT, yytext());}
 {string}            {return newSym(sym.STRING, yytext());}
 {integerliteral}    {return newSym(sym.INTLIT, yytext());}
 {charliteral}       {return newSym(sym.CHARLIT, yytext());}
