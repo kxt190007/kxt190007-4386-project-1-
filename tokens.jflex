@@ -64,7 +64,7 @@ stringlit = \"{string}\"
 whitespace = [ \n\t\r]
 id = {letter}[{letter}{number}]*
 integerliteral = {number}+
-singlecomment = {backslash}*\n
+singlecomment = {backslash}{backslash}*\n
 multicomment = {openmulti}[^*]~{closemulti}
 
 
